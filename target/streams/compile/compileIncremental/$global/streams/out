@@ -1,0 +1,41 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set(/home/cmills/source/elt/src/main/scala/elt.scala, /home/cmills/source/elt/src/main/scala/hw.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/cmills/source/elt/src/main/scala/elt.scala, /home/cmills/source/elt/src/main/scala/hw.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/cmills/source/elt/src/main/scala/elt.scala, /home/cmills/source/elt/src/main/scala/hw.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 2 Scala sources to /home/cmills/source/elt/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.11:component from component compiler for Scala 2.11.7[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.11:component from component compiler for Scala 2.11.7[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 7ba606ec, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-feature[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/opt/icedtea-bin-7.2.6.5/jre/lib/resources.jar:/opt/icedtea-bin-7.2.6.5/jre/lib/rt.jar:/opt/icedtea-bin-7.2.6.5/jre/lib/sunrsasign.jar:/opt/icedtea-bin-7.2.6.5/jre/lib/jsse.jar:/opt/icedtea-bin-7.2.6.5/jre/lib/jce.jar:/opt/icedtea-bin-7.2.6.5/jre/lib/charsets.jar:/opt/icedtea-bin-7.2.6.5/jre/lib/rhino.jar:/opt/icedtea-bin-7.2.6.5/jre/lib/jfr.jar:/opt/icedtea-bin-7.2.6.5/jre/classes:/home/cmills/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/cmills/source/elt/target/scala-2.11/classes:/home/cmills/source/elt/lib/slf4j-simple-1.7.21.jar:/home/cmills/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.11/jars/dispatch-core_2.11-0.11.2.jar:/home/cmills/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/home/cmills/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.8.10.jar:/home/cmills/.ivy2/cache/io.netty/netty/bundles/netty-3.9.2.Final.jar:/home/cmills/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar:/home/cmills/.ivy2/cache/org.scala-lang/scala-swing/jars/scala-swing-2.11.0-M7.jar:/home/cmills/.ivy2/cache/org.skife.com.typesafe.config/typesafe-config/jars/typesafe-config-0.3.0.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 4.745215728 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/cmills/source/elt/src/main/scala/hw.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/cmills/source/elt/src/main/scala/hw.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/cmills/source/elt/src/main/scala/hw.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/cmills/source/elt/src/main/scala/hw.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/cmills/source/elt/src/main/scala/hw.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, Elt, notifyAll, isInstanceOf, ==, clone, sync, toString, !=, getClass, Api, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/cmills/source/elt/src/main/scala/elt.scala: Set(Elt, sync, Api)[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set(/home/cmills/source/elt/src/main/scala/elt.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/cmills/source/elt/src/main/scala/elt.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

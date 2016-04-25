@@ -1,0 +1,7 @@
+package com.ithrn.elt
+
+object Elt {
+  def main() {
+    println("Hello, world!")
+  }
+}
